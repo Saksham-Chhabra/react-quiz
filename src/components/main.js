@@ -1,7 +1,7 @@
 function main({ children }) {
   return (
     <main className="main">
-      <p></p>
+      <div>{children}</div>
     </main>
   );
 }
